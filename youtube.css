@@ -1,0 +1,432 @@
+* /* Clear all the white shadows under the text. */
+{
+	text-shadow: none !important;
+}
+
+::selection
+{
+	background-color: #CE0000 !important;	
+}
+
+::moz-selection
+{
+	background-color: #CE0000 !important;
+}
+
+#masthead-search-term::selection
+{
+	background-color: #CE0000 !important;	
+}
+
+#masthead-search-term::moz-selection
+{
+	background-color: #CE0000 !important;	
+}
+
+#logo  /* Hide the YouTube logo. */
+{
+	visibility: hidden;
+}
+
+#footer-logo
+{
+	margin: 0 !important;
+}
+
+#footer-logo img /* We don't want the bottom logo. */
+{
+	display: none !important;
+}
+
+#logo-container /* Display the new logo. */ 
+{
+	/*background-image: url('http://developers.google.com/youtube/images/YouTube_logo_standard_dark.png') !important;
+	background-size: 72px auto !important;
+	background-repeat: no-repeat !important;*/
+}
+
+#player-api /* Centers the player. */
+{
+	margin: auto !important;
+	/*padding-left: -225px !important;*/
+}
+
+				/* TEST: Set the header at the bottom of the page. */
+				/*#yt-masthead-container
+				{
+					position: fixed !important;
+					bottom: 0 !important;
+					left: 0 !important;
+					right: 0 !important;
+					z-index: 500 !important;
+					
+					box-shadow: 		0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
+					-moz-box-shadow: 	0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
+					-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) !important;
+				}
+
+				.gstl_0.gssb_c
+				{					
+					display: block !important;
+					position: fixed !important;
+					
+					width: 100% !important;
+					left: 0 !important;
+					right: 0 !important;
+					margin-top: -61px !important;
+					text-align: center !important;
+				}
+				
+				.gstl_0.gssb_c *
+				{
+					display: inline !important;
+					border: none !important;
+				}
+				
+				.gstl_0.gssb_c .gssb_e table:nth-child(1)
+				{
+					background-color: red !important;
+				}*/
+
+#watch7-content .yt-thumb-square .yt-thumb-clip-inner img /* The users' pictures are now in a circle shape! */
+{
+	border-radius: 50% !important;
+}
+
+.yt-thumb-clip-inner img
+{
+	transition: all 0.5s !important;
+	-webkit-transition: all 0.5s !important;
+}
+
+.yt-thumb-clip-inner
+{
+	overflow: auto !important;
+}
+
+.yt-thumb-clip-inner *
+{
+	overflow: auto !important;
+}
+
+#watch7-sidebar .yt-thumb-clip-inner img:hover
+{
+	transform: scale(1.4) !important;
+	-ms-transform: scale(1.4) !important; /* IE 9 */
+	-webkit-transform: scale(1.4) !important; /* Safari and Chrome */
+}
+
+#guide span
+{
+	/*display: none !important;*/
+	color: gray !important;
+}
+
+#eow-title
+{
+	color: #4f0000 !important;
+	font-weight: bold !important;
+	text-shadow: 1px 1px rgba(255, 0, 0, 0.5) !important;
+}
+
+body, #yt-masthead-container, #masthead-expanded-container, #footer-container /* Layout of the header and footer. */
+{
+	background-color: #353535 !important;
+	border: none !important;
+}
+
+#body-container > div[id*=masthead]:not(.hid)
+{
+	box-shadow: 		inset 0 -10px 10px -10px rgba(0, 0, 0, 0.85) !important;
+	-moz-box-shadow: 	inset 0 -10px 10px -10px rgba(0, 0, 0, 0.85) !important;
+	-webkit-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.85) !important;
+}
+
+#masthead-expanded-container
+{
+	box-shadow: 		inset 0 -10px 10px -10px rgba(0, 0, 0, 0.85), 0 0 0 10px #353535 !important;
+	-moz-box-shadow: 	inset 0 -10px 10px -10px rgba(0, 0, 0, 0.85), 0 0 0 10px #353535 !important;
+	-webkit-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.85), 0 0 0 10px #353535 !important;
+}
+
+body, #footer-container
+{
+	background-color: black !important;
+	border: none !important;
+}
+
+#watch-like:hover
+{
+	background: none !important;
+	border: none !important;
+}
+
+#yt-masthead-user button.yt-masthead-user-icon /* Hide the user avatar. */
+{
+	display: none !important;
+}
+
+#sb-button-notify /* The notification button appears like text now. */
+{
+	background: none !important; 
+	width: auto !important;
+	color: red !important;
+	border: none !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	font-size: 11px !important;
+}
+
+#page
+{
+	padding: 0 !important;
+}
+
+#page-container, #watch7-content, #watch7-sidebar, #page /* Layout of the area under the player. */
+{
+	background-color: #151515 !important;
+	border: none !important;
+}
+
+#watch7-content *, #guide *
+{
+	background-color: transparent !important;
+	border: none !important;
+}
+
+#masthead-search button /* Hide the search button. Come on, just press enter... */
+{
+	display: none !important;
+}
+
+#yt-masthead-content, #watch7-playlist-data /* Put the search bar in the center. */
+{
+	margin: auto !important;
+}
+
+#watch7-subscription-container button
+{
+	background: none !important;
+}
+
+#player
+{
+	background: none !important;
+	background-color: black !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#watch7-main-container
+{
+	padding-top: 15px !important;
+	
+	box-shadow: 		inset 0 10px 10px -10px rgba(0, 0, 0, 0.95) !important;
+	-moz-box-shadow: 	inset 0 10px 10px -10px rgba(0, 0, 0, 0.95) !important;
+	-webkit-box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.95) !important;
+}
+
+#watch7-content > div:hover
+{	
+	background-color: #EEE !important;
+	border-radius: 20px !important;
+
+	transition: background-color 0.75s !important;
+	-webkit-transition: background-color 0.75s !important;
+}
+
+#google_image_div, #google_companion_ad_div, #player-branded-banner, .watch-pyv-vid, .promoted-videos, #ad_creative_1 /* Hide the advertisements (Google and Vevo). */
+{
+	display: none !important;
+}
+
+#watch7-sidebar /* Place the suggestion bar under the player. */
+{
+	margin-top: 0 !important;
+}
+
+#watch7-sidebar-discussion + .watch-sidebar-section /* Hide the Vevo suggestions. */
+{
+	display: none !important;
+}
+
+#playlist
+{
+	display: block !important;
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+
+#watch7-playlist-data .watch7-playlist-bar
+{
+	text-align: center !important;
+	margin: auto !important;
+}
+#watch7-playlist-data .watch7-playlist-bar
+{
+	width: 854px !important;
+}
+
+body #footer-container, div#footer, #footer > div /* Helps to center the footer. */ 
+{
+	background-color: transparent !important;
+	margin: 0 !important;
+	border: none !important;
+	width: auto !important;
+}
+
+#footer-container /* We center the footer content. */
+{
+	text-align: center !important;
+	width: 100% !important;
+	
+	box-shadow: 		0 0 10px 0 rgba(0, 0, 0, 0.95) !important;
+	-moz-box-shadow: 	0 0 10px 0 rgba(0, 0, 0, 0.95) !important;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.95) !important;
+}
+
+.comments-pagination .yt-uix-pager-button
+{
+	background: none !important;
+}
+
+
+
+
+
+/* Here we place the comments and suggestions. CONDITION */
+@media (min-width: 1350px)
+{
+	#watch7-main-container
+	{
+		/*text-align: center !important;*/
+		padding-left: 0 !important;
+		min-width: 920px !important;
+	}
+
+	#watch7-content
+	{
+		margin-left: -320px !important;
+		left: 50% !important;
+		position: relative !important;
+	}
+
+	#watch7-sidebar
+	{
+		width: 350px !important;
+		padding: 0 !important;
+		float: right !important;
+		right: 0 !important;
+	}
+}
+
+
+
+
+
+/* Centers the search result page. */ 
+.col-container
+{
+	background: none !important;
+	text-align: center !important;
+	margin: auto !important;
+}
+
+/* Centers the search result page too. */ 
+.col-container > *:first-child
+{
+	text-align: left !important;
+}
+
+/* Style of the search input. */ 
+#masthead-search-terms
+{
+	background-color: transparent !important;
+	box-shadow: none !important;
+	border: none !important;
+	/*border-bottom: 1px solid #151515 !important;*/
+}
+
+#masthead-search-terms input
+{
+	opacity: 0.1 !important;
+	
+	font-weight: bold !important;
+	color: #EEEEEE !important;
+	
+	/*box-shadow: inset 0 1px 2px black !important;*/
+	border: none !important;
+	
+	transition: all 0.35s !important;
+	-webkit-transition: all 0.35s !important;
+}
+
+#masthead-search-terms input:hover
+{
+	opacity: 0.6 !important;
+}
+
+#masthead-search-terms input:focus
+{
+	opacity: 1 !important;
+}
+
+#masthead-search-terms input
+{
+	background-image: url("/images/backgrounds/fond_critere.png"), url("/images/icones/loupe 16x16.png");
+	background-repeat: repeat-x, no-repeat;
+	background-position: bottom, 2% center;
+}
+
+/* Style of the Download button. Shall we hide it? */
+#masthead-upload-button-group
+{
+	opacity: 0.1 !important;
+	transition: all 0.35s !important;
+	-webkit-transition: all 0.35s !important;
+}
+
+#masthead-upload-button-group:hover
+{
+	opacity: 1 !important;
+}
+
+/* Style of the auto-selection menu. */
+.gstl_0.gssb_c *
+{
+	border: none !important;
+	background: none !important;
+	color: #EEEEEE !important;
+}
+
+.gstl_0.gssb_c 
+{
+	background-color: rgba(53, 53, 53, 0.8) !important;
+	box-shadow: 10px 10px 10px red !important;
+	
+	box-shadow: 0 3px 9px 0 rgba(53, 53, 53, 0.8) !important;
+	-moz-box-shadow: 0 3px 9px 0 rgba(53, 53, 53, 0.8) !important;
+	-webkit-box-shadow: 0 3px 9px 0 rgba(53, 53, 53, 0.8) !important;
+}
+
+.gstl_0.gssb_c .gssb_i *
+{
+	color: #00CCFF !important;
+}
+
+#all-comments
+{
+	height: 150px !important;
+	overflow: hidden !important;
+	
+	box-shadow: 		inset 0 -15px 15px -20px rgba(255, 255, 255, 0.75);
+}
+
+#all-comments:hover
+{
+	height: auto !important;
+	box-shadow: none !important;
+}
