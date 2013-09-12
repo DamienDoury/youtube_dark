@@ -31,3 +31,4 @@ Con:
 - Doesn't work since YouTube updated his CSS...
 - Sometimes even the relevant suggestion section is hidden.
 - Only works with the fully enlarged video mode. Otherwise the playlist controller bugs.
+- I don't manage all the YouTube pages yet. Some sections might still have a white background.
