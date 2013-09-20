@@ -1,7 +1,11 @@
 Youtube Dark
 ============
 
-Dark CSS style for YouTube
+*Dark CSS style for YouTube*
+
+*July 2013*
+
+![alt text](https://github.com/DamienDoury/youtube_dark/blob/master/youtube_dark.png?raw=true "Style comparison")
 
 That's just a CSS sheet that you can load within your browser to modify the YouTube style (with Chrome you can use the plugin Stylish).
 Check the picture to see what it looks like.
